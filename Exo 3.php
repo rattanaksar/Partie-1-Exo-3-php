@@ -1,3 +1,8 @@
+<?php
+        $km = 1;
+        $km2 = 3;
+        $km3 = 125;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,16 +13,14 @@
 </head>
 <body>
     <h1>Exo 3 Partie : Les variables PHP</h1>
-    <?php
-        $km = 1;
-        echo $km;
-        echo "<br>";
-        $km= 3;
-        echo $km;
-        echo "<br>";
-        $km=125;
-        echo $km;
-        echo "<br>";
-    ?>
+    <p>
+    <?= $km;?>
+    </p>
+    <p>
+    <?= $km2;?>
+    </p>
+    <p>
+    <?= $km3;?>
+    </p>
 </body>
 </html>
